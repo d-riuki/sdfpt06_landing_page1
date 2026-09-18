@@ -1,0 +1,22 @@
+ /* write css  */
+            /* to style using an id use the hash symbol #nameofid */
+            #divImage{
+                border-radius: 5px;
+                background-color: black;
+                align-items: center;
+                justify-content: center;
+            }
+            /* class : use the symbol .classname{} */
+            .btns{
+                color: white;
+                font-weight: bold;
+                background-color: blue;
+                border-radius: 5px;
+            }
+            /* styling using the tagname */
+            button{
+                color: white;
+                font-weight: bold;
+                background-color: green;
+                border-radius: 5px;
+            }
