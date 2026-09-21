@@ -1,0 +1,50 @@
+/* 
+Rules for implementing the grid template area 
+1. Define your rows : single quotation marks are used to represent a row ''
+2. Inside each row span the item in accordance to how it should occupy the spaces 
+   - by default a page from left to right has 12 columns 
+   - now with the grid design we span this out by representing the section 
+   in accordance to the items
+*/
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'navbar navbar navbar navbar navbar navbar'
+    'quicklinks video video video video resources'
+    'helpform helpform helpform helpform helpform helpform'
+    'footer footer footer footer footer footer'
+}
+
+/* mark each grid item with its grid area name (identification used for the grid positioning
+inside css) */
+#item1{
+     grid-area: navbar;
+     margin: 10px;
+     padding: 10px;
+}
+#item2{
+     grid-area: quicklinks;
+     margin: 10px;
+     padding: 10px;
+}
+#item3{
+     grid-area: video;
+     margin: 10px;
+     padding: 10px;
+}
+#item4{
+     grid-area: resources;
+     margin: 10px;
+     padding: 10px;
+}
+#item5{
+     grid-area: helpform;
+     margin: 10px;
+     padding: 10px;
+}
+#item6{
+     grid-area: footer;
+     margin: 10px;
+     padding: 10px;
+}

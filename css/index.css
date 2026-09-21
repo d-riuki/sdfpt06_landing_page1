@@ -3,8 +3,8 @@
             #divImage{
                 border-radius: 5px;
                 background-color: black;
-                align-items: center;
-                justify-content: center;
+                margin: 0 auto;
+                display: block;
             }
             /* class : use the symbol .classname{} */
             .btns{
@@ -12,6 +12,8 @@
                 font-weight: bold;
                 background-color: blue;
                 border-radius: 5px;
+                border: 10px none red;
+                padding: 4px;
             }
             /* styling using the tagname */
             button{
@@ -19,4 +21,8 @@
                 font-weight: bold;
                 background-color: green;
                 border-radius: 5px;
+                margin: 20px;
+            }
+            p{
+                color: purple;
             }

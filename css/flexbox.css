@@ -1,0 +1,30 @@
+.flex-container{
+    /* this renders the container using flexbox principles */
+    display: flex; 
+    flex-direction: column;
+
+}
+
+#item1{
+    margin: 5px;
+    padding: 5px;
+}
+#item2{
+    margin: 5px;
+    padding: 5px;
+}
+#item3{
+    margin: 5px;
+    padding: 5px;
+}
+#item4{
+    margin: 5px;
+    padding: 5px;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+h5{
+    display: inline;
+}
